@@ -1,0 +1,29 @@
+@import "../mixins/squareButton";
+
+.playWithNavButtons {
+  .positionAndControls {
+    .controls {
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      .gotoButton {
+        @include squareButton;
+        border: 1px solid blue;
+      }
+    }
+
+    .controlsCentral {
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .gotoButton {
+        @include squareButton;
+        border: 1px solid blue;
+      }
+    }
+  }
+}

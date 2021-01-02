@@ -1,0 +1,14 @@
+.sectionPages {
+  margin-top: 20px;
+  .pageCheckboxWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    div {
+      white-space: nowrap;
+      margin-right:20px;
+    }
+  }
+  .page {
+    padding: 10px;
+  }
+}

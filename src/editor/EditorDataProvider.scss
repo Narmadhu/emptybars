@@ -1,0 +1,40 @@
+$borderColor: grey;
+
+.editorDataProvider {
+  td {
+    vertical-align: top;
+    border-bottom: 1px solid $borderColor;
+    padding: 10px;
+  }
+
+  .lastRow {
+    border-bottom: none;
+  }
+
+  p {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  td.firstCol {
+  }
+
+  input:read-only {
+    background-color: lightgrey;
+  }
+
+  textarea:read-only {
+    background-color: lightgrey;
+  }
+
+  textarea {
+    height:150px;
+    width: 300px;
+  }
+
+  input[type=text] {
+    width: 300px;
+  }
+
+  border-collapse: collapse;
+}

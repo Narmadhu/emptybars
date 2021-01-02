@@ -1,0 +1,15 @@
+@mixin squareButton {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: rgb(212, 212, 212);
+  cursor: pointer;
+  margin: 4px;
+
+
+  &.active {
+    background-color: rgb(161, 161, 161);
+  }
+}

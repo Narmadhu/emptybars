@@ -1,0 +1,23 @@
+@import "../mixins/blueButton";
+@import "../mixins/squareButton";
+
+.sections {
+  max-width: 100%;
+    .addButtonWrapper {
+      display: flex;
+      margin-left: 10px;
+      .addButton {
+        @include blueButton;
+        text-align: center;
+      }
+    }
+    .sectionWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      .button {
+        @include squareButton;
+        white-space: nowrap;
+      }
+    }
+}
