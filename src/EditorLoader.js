@@ -72,7 +72,7 @@ function EditorLoader(initialData) {
 
     return <div >
         { showCookies ?
-            <div style={{border: '1px solid #999', display: 'table', padding: '10px', margin: '10px'}}>
+            <div style={{border: '1px solid #999', display: 'table', padding: '10px', margin: '10px',position:"relative",top:0,left:"32%"}}>
                 By using the editor, you agree and accept the website's <a href='/cookies'>cookies policy</a>.<br /><br />
                 <strong><a href='#' onClick={closeCookies}>Close</a> <br /></strong>
                 <a href='https://www.youtube.com/watch?v=9E6b3swbnWg&list=PLz9q8tuDHcRfQ--1tUrZj4xC1pShtz9cD'>Let me out!</a>
